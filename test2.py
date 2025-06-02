@@ -1,3 +1,7 @@
+from huggingface_hub.hf_api import HfFolder
+# get your token here https://huggingface.co/settings/tokens
+HfFolder.save_token('YOUR_HF_TOKEN') 
+
 import os
 import torch
 from PIL import Image
